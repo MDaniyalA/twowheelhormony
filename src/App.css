@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Open+Sans&family=Poppins:ital,wght@0,400;1,500;1,800&display=swap');
+
+* {
+    font-family: Poppins;
+    color: white;
+}
+
+body {
+    background-color: #1b2021;
+}
+
+.navbar-zk {
+    background-color: #5a37d1 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.inputofnavbar {
+    background-color: #6e45f1 !important;
+    border: none !important;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.inputofnavbar:focus {
+    border: 1px solid white !important;
+}
+
+.searchedDiv {
+    width: 400px;
+    background-color: #24292c;
+}
+
+.imgofsearchdata{
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.imgofmainframe{
+    width: 100%;
+    object-fit: cover;
+}
+
+.startcolor{
+    color: orange;
+    transition: all .5s;
+}
+
+.addToCartbtn{
+    background-color: #5a37d1;
+    border: none;
+    transition: all .3s;
+    color: #bfbfbf;
+}
+
+.addToCartbtn:hover{
+    color: #fff;
+}
+
+
+.imgofselected{
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.widtharea{
+    max-width: 350px;
+    
+}
+
+.logoofnavbar{
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.logoofnavbar:hover{
+    text-shadow: 1px 1px #e1e1e1;
+}
+
+
+@media (max-width:340px) {
+    .inputofnavbar{
+        width: 100%;
+    }
+}
